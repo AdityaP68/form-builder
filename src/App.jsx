@@ -1,11 +1,11 @@
 import "./App.css";
-import Card from "./components/UI/Card";
+import FormBuilder from "./components/Form/FormBuilder";
 import Layout from "./components/UI/Layout";
 
 export default function App() {
   return (
     <Layout>
-      <Card>omkie</Card>
+      <FormBuilder/>
     </Layout>
   );
 }
